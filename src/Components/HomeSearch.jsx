@@ -35,7 +35,7 @@ export default function HomeSearch() {
         <TiMicrophoneOutline className='text-white text-xl' />
         </form>
         <div className='text-[#DBFFFF] flex justify-center gap-3 my-7 text-sm'> 
-            <button onClick={handleSubmit} className='p-2 px-4 bg-[#303134] hover:border hover:border-[#474A4E]  rounded-md'>Google Search</button>
+            <button onClick={handleSubmit} className='p-2 px-4 bg-[#303134] hover:border hover:border-[#474A4E]  rounded-md'>Web Search</button>
             
             <button disabled={randomSearchLoading} onClick={randomSearch} className='p-2 px-4 bg-[#303134] hover:border hover:border-[#474A4E] rounded-md'>{randomSearchLoading ? 'loding...' : "I'm Feeling Lucky "}</button>
            
